@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileUpanDown</name>
+    </assembly>
+    <members>
+        <member name="T:FileUpanDown.Controllers.BaseAPIController">
+            <summary>
+            基础控制器
+            </summary>
+        </member>
+        <member name="M:FileUpanDown.Controllers.BaseAPIController.Success(System.Object)">
+            <summary>
+            返回成功
+            </summary>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileUpanDown.Controllers.BaseAPIController.Fail(System.String,System.Object)">
+            <summary>
+            返回失败
+            </summary>
+            <param name="Msg"></param>
+            <param name="Data"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FileUpanDown.Controllers.DownLoadFileController">
+            <summary>
+            下载接口
+            </summary>
+        </member>
+        <member name="M:FileUpanDown.Controllers.DownLoadFileController.DownLoadFile(System.String)">
+            <summary>
+            下载文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FileUpanDown.Controllers.UpFileController">
+            <summary>
+            文件上传接口
+            </summary>
+        </member>
+        <member name="M:FileUpanDown.Controllers.UpFileController.UploadFileAsync">
+            <summary>
+            文件上传（通过表单file上传）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:FileUpanDown.TOOL.FileHelper">
+            <summary>
+            文件上传帮助类
+            </summary>
+        </member>
+        <member name="M:FileUpanDown.TOOL.FileHelper.CreateRandomstr(System.Int32)">
+            <summary>
+            生成随机数
+            </summary>
+            <param name="length"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
